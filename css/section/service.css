@@ -1,0 +1,16 @@
+.service {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin: 52px 0;
+}
+.service-heading {
+  padding: 60px 0;
+  text-align: center;
+  font-size: 3.125em;
+  font-weight: 700;
+}
+.service-heading span {
+  color: var(--primary);
+}

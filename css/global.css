@@ -1,0 +1,66 @@
+/* other css file imports */
+@import url("./section/header.css");
+@import url("./section/hero.css");
+@import url("./section/service.css");
+:root {
+  --primary: #1663f9;
+  --black: #1f2326;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  font-family: "Sora", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.global-heading {
+  font-family: "Sora", sans-serif;
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.global-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* header */
